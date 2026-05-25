@@ -171,7 +171,6 @@ cython_debug/
 #  *.iws
 
 # VS Code
-.vscode/
 
 # macOS
 .DS_Store
@@ -231,3 +230,6 @@ scripts/test_data
 CLAUDE.md
 .claude/
 
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat

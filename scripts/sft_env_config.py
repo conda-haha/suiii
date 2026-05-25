@@ -179,7 +179,7 @@ def get_training_json(train_info: dict) -> dict:
         train_info.get("min_steps", 100),
     )
 
-    gen_seconds = int(train_info["hours_to_complete"] * 3600 * 0.30)
+    gen_seconds = int(train_info["hours_to_complete"] * 3600 * 0.25)
     generate_cmd = (
         f"python -m envs.generate_trajectories"
         f" --environment_names {' '.join(env_names)}"
